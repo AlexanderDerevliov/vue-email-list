@@ -2,9 +2,17 @@ ul li {
     list-style-type: none;
 }
 
+input:focus-visible {
+    outline: none;
+    border-radius: 10px;
+}
 
 .my_container {
-    width: 100%;
+    background-color: rgb(121, 176, 176);
+    width: 50%;
+    min-height: 300px;
+    padding: 1rem;
     margin: 5rem auto;
     text-align: center;
+    border-radius: 10px;
 }

@@ -1,0 +1,10 @@
+ul li {
+    list-style-type: none;
+}
+
+
+.my_container {
+    width: 100%;
+    margin: 5rem auto;
+    text-align: center;
+}

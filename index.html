@@ -36,6 +36,7 @@
                 <!-- emails -->
                 <li v-for="email in eMail">{{ email }}</li>
             </ul>
+            <br>
             <!-- input and button -->
             <input @keyup.enter="getRandomEmail" v-model.number="emailNumber" class="w-75 p-1" type="text"
                 placeholder="Scrivi il numero delle e-mail che vuoi generare"> <br>
